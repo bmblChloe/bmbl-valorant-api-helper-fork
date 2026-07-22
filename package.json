@@ -1,6 +1,6 @@
 {
-  "name": "@mrbabalafe/valorant-api-helper",
-  "version": "0.3.4",
+  "name": "@bmbl/valorant-api-helper",
+  "version": "0.1",
   "description": "Valorant API Helper",
   "main": "build/index.js",
   "type": "module",
@@ -11,9 +11,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/WalkerSakatch/valorant-api-helper.git"
+    "url": "https://github.com/bmblChloe/bmbl-valorant-api-helper-fork.git"
   },
-  "homepage": "https://github.com/WalkerSakatch/valorant-api-helper",
+  "homepage": "https://github.com/bmblChloe/bmbl-valorant-api-helper-fork",
   "author": "B",
   "license": "MIT",
   "dependencies": {
