@@ -9,5 +9,6 @@ export * from './api/playerTitles/index.js';
 export * from './api/seasons/index.js';
 export * from './api/bundles/index.js';
 export * from './api/contracts/index.js';
+export * from './api/buddies/index.js';
 export * from './api/auth/index.js';
 export * from './api/pvp/index.js';
