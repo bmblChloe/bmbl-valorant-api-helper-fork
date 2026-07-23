@@ -1,6 +1,6 @@
 import { Reward } from "./Reward"
 
-export interface Level {
+export interface ContractLevel {
   reward: Reward
   xp: number
   vpCost: number
