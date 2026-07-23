@@ -1,6 +1,6 @@
 import { Flex } from "./Flex";
 
 export interface FlexResponse {
-  status: number;
+  status: number
   data: Flex[]
 }
