@@ -5,8 +5,8 @@ import { PlayerLoadoutSpray } from "./PlayerLoadoutSpray"
 export interface PlayerLoadoutResponse {
     Subject: string
     Version: number
-    Guns: Array<PlayerLoadoutGun>
-    Sprays: Array<PlayerLoadoutSpray>
+    Guns: PlayerLoadoutGun[]
+    Sprays: PlayerLoadoutSpray[]
     Identity: PlayerLoadoutIdentity
     Incognito: boolean
 }

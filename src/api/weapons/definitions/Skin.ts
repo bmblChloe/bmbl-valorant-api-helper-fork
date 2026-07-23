@@ -9,6 +9,6 @@ export interface Skin {
     displayIcon: string
     wallpaper: string
     assetPath: string
-    chromas: Array<Chroma>
-    levels: Array<Level>
+    chromas: Chroma[]
+    levels: Level[]
 }

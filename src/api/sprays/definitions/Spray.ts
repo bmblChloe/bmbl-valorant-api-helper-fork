@@ -13,5 +13,5 @@ export interface Spray {
     animationPng: string
     animationGif: string
     assetPath: string
-    levels: Array<SprayLevel>
+    levels: SprayLevel[]
 }

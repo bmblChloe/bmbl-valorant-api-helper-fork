@@ -12,5 +12,5 @@ export interface Weapon {
     assetPath: string
     weaponStats: WeaponStats
     shopData: ShopData
-    skins: Array<Skin>
+    skins: Skin[]
 }

@@ -7,7 +7,7 @@ export interface Agent {
     displayName: string
     description: string
     developerName: string
-    characterTags: Array<string>
+    characterTags: string[]
     displayIcon: string
     displayIconSmall: string
     bustPortrait: string
@@ -15,13 +15,13 @@ export interface Agent {
     fullPortraitV2: string
     killfeedPortrait: string
     background: string
-    backgroundGradientColors: Array<string>
+    backgroundGradientColors: string[]
     assetPath: string
     isFullPortraitRightFacing: boolean
     isPlayableCharacter: boolean
     isAvailableForTest: boolean
     isBaseContent: boolean
     role: Role
-    abilities: Array<Ability>
+    abilities: Ability[]
     voiceLine: VoiceLine
 }
