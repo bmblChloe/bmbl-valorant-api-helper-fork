@@ -1,4 +1,4 @@
-export interface Level {
+export interface WeaponLevel {
     uuid: string
     displayName: string
     levelItem: string

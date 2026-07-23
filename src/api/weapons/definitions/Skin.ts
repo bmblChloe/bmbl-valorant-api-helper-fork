@@ -1,5 +1,5 @@
 import { Chroma } from "./Chroma"
-import { Level } from "./Level"
+import { WeaponLevel } from "./WeaponLevel"
 
 export interface Skin {
     uuid: string
@@ -10,5 +10,5 @@ export interface Skin {
     wallpaper: string
     assetPath: string
     chromas: Chroma[]
-    levels: Level[]
+    levels: WeaponLevel[]
 }
